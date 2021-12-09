@@ -1,0 +1,43 @@
+.bg {
+  content: url("../images/bg-desktop.svg");
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  min-height: 80vh;
+  text-align: left;
+}
+
+.container div {
+  position: relative;
+  margin-left: 30px;
+}
+
+.container__text {
+  width: 90%;
+  height: 55vh;
+}
+.container__text h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  line-height: 2.5remm;
+}
+.container__text p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.container__text button {
+  margin-top: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: -100;
+  right: 0;
+}
